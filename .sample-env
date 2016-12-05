@@ -1,0 +1,5 @@
+//create a file called '.env'
+//and insert your credentals in place of the fake ones, as shown below
+
+GITHUB_CLIENT_ID=fake_secret
+GITHUB_SECRET=fake_key_id

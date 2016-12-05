@@ -1,0 +1,24 @@
+{
+  "name": "altamium_mission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "dotenv": "^2.0.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "jsdom": "^9.8.3",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
