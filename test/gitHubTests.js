@@ -1,10 +1,11 @@
 var chai = require('chai');
 var chaiHttp = require('chai-http');
-chai.use(chaiHttp);
 var expect = chai.expect
 var dotenv = require('dotenv');
-dotenv.load();
 var jsdom = require('jsdom');
+
+chai.use(chaiHttp);
+dotenv.load();
 
 global.document = jsdom.jsdom('https://github.com/octocat');
 global.window = document.defaultView;
